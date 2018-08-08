@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">JobDispatcher wth RxJava</string>
+    <string name="lbl_recurring_frequency">Recurring Frequency (in seconds)</string>
+    <string name="lbl_non_recurring_job">One Off Job</string>
+    <string name="lbl_recurring_job">Recurring Job</string>
+    <string name="update_current">Update Current</string>
+    <string name="constraints_if_any">Constraints, if any</string>
+    <string name="lbl_constraint_on_any_network">On Any Network</string>
+    <string name="lbl_constraint_on_unmetered_network">On Unmetered Network</string>
+    <string name="lbl_constraint_device_charging">Device Charging</string>
+    <string name="lbl_constraint_device_idle">Device idle</string>
+    <string name="msg_update_current">Should the current job be updated with the new one?</string>
+    <string name="msg_recurring_frequency">How frequenty should the job be repeated?</string>
+    <string name="lbl_start">Start</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_job_type">Job Type</string>
+    <string name="attributes">Attributes</string>
+    <string name="msg_job_couldnt_be_cancelled">Job Couldn\'t be cancelled</string>
+    <string name="msg_job_cancelled">Job Cancelled successfully</string>
+    <string name="msg_err_valid_recurring_frequency">Please provide a valid recurring frequency</string>
+</resources>

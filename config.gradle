@@ -1,0 +1,12 @@
+ext{
+    appcompat_version = "28.0.0-beta01"
+
+    rxjava_version = "2.2.0"
+    rxandroid_version = "2.0.2"
+
+    fjd_version = "0.8.5"
+
+    kotlin_version = '1.2.50'
+
+    playservices_version = '15.0.1'
+}

@@ -3,6 +3,9 @@
 This project demonstrates the use of [Firebase JobDispatcher](https://github.com/firebase/firebase-jobdispatcher-android "Firebase Job Scheduler Github page") to schedule recurring and one off jobs for your application. 
 
 ### Core Components
+
+![alt text](https://github.com/Pinaki93/jobdispatcher-wrapper-framework/blob/master/img/ss_core.png "Core Components")
+
 The Core Components used are `CoreJobService` and `JobScheduerFacade` which help us implement a wrapper around the `JobDispatcher` framework.
 
 #### CoreJobService

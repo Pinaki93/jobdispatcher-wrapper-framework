@@ -4,7 +4,7 @@ This project demonstrates the use of [Firebase JobDispatcher](https://github.com
 
 ### Core Components
 
-![alt text](https://github.com/Pinaki93/jobdispatcher-wrapper-framework/blob/master/img/ss_core.png "Core Components")
+![alt text](https://raw.githubusercontent.com/Pinaki93/jobdispatcher-wrapper-framework/master/img/ss_core.png "Core Components")
 
 The Core Components used are `CoreJobService` and `JobScheduerFacade` which help us implement a wrapper around the `JobDispatcher` framework.
 

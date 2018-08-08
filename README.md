@@ -20,3 +20,5 @@ This class exposes three methods to schedule and cancel jobs, `scheduleOneOffJob
 <img src="img/ss_recipes.png"/>
 
 This package contains `MainActivity` which contains a playground to play with one such job created, named `SimpleJobService` which performs an operation that lasts for 10 seconds. This mocks a real work REST API call, for instance, which might have progress and result. If an exception arises during the execution of the job, we can either make the method throw an exception or catch the exception and return `true` or `false` denoting if the job should be rescheduled. We are using the same service for our `recurring` and `one off` tasks so we have used an interface `TagProvider` to differentiate between the tags.
+
+<img src="img/ss_mainactivity.png"/>

@@ -102,15 +102,4 @@ public abstract class CoreJobService : JobService() {
         if (!compositeDisposable.isDisposed)
             compositeDisposable.dispose()
     }
-
-    fun a(vararg x:Int){
-        b(*x)
-    }
-
-    fun b(vararg x:Int){
-
-    }
-
-
-
 }

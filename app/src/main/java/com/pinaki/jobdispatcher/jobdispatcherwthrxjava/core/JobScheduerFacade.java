@@ -21,8 +21,7 @@ import com.google.android.gms.common.GoogleApiAvailability;
  */
 public class JobScheduerFacade {
 
-//    private static final int MINUTE_IN_SECONDS = 60;
-    private static final int MINUTE_IN_SECONDS = 10; // for testing purposes
+    private static final int MINUTE_IN_SECONDS = 60;
 
     public static void scheduleOneOffJob(Context context, Class<? extends CoreJobService> jobClazz, String tag, @Nullable Bundle extras, boolean shouldReplaceCurrent, @Constraint.JobConstraint int... constraints) {
         if (context == null || !isGooglePlayServicesAvailable(context))
